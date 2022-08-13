@@ -1,0 +1,11 @@
+from matplotlib import pyplot as plt
+
+Year = (2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020)
+Percentage_Change_of_Fatalities = (-2.47,-1.58,4.01,-2.63,-0.46,8.37,6.54,-0.88,-1.70,-1.30,6.79) 
+plt.title('Percentage Change in Number of Fatalities due to Crashes per year')
+plt.xlabel("Year", fontsize = 14)
+plt.ylabel("Percentage Change in Fatalities", fontsize = 14)
+plt.plot(Year, Percentage_Change_of_Fatalities, color='red', marker='o')
+plt.axhline(0, c='black', ls='solid')
+plt.grid(True)
+plt.show()
