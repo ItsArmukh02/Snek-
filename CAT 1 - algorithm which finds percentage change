@@ -1,0 +1,15 @@
+This is the algorithm
+#first we input the value of the years
+x = input("Give the base year's value")
+y = input("Give the next year's value")
+#now we calculate the change, where 'z' represents the change
+z = int(y) - int(x)
+#now we divide that by the base
+a = int(z)/int(x)
+#now we multiply by 100
+b = ((float(a)) * (100))
+c = round(b, 2)
+print (c)
+
+
+
