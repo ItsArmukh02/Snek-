@@ -1,0 +1,22 @@
+test_cases = input("please input the number of test cases")
+bob_height = input("please input bob's height, it must be greater than 100 cm and less than 200cm")
+alice_height = input("please input alice's height, it must be greater than 100cm or less than 200cm ")
+
+#these are the variables
+if int(bob_height) > int(alice_height):
+    print("B")
+else:
+    print("A")
+if int(alice_height) == int(bob_height):
+    print("cannot compare as the heights are the same")
+# alice's height is X cm and bob's height is Y cm
+if int(alice_height) < 100:
+    print("the height is less than 100")
+if int(alice_height) > 200:
+    print("the height is greater than 200")
+if int(bob_height) < 100:
+    print("the height is less than 100")
+if int(bob_height) > 200:
+    print("the height is greater than 200")
+if int(test_cases) > 1000:
+    print("Error, the test cases must be less than 1000")
