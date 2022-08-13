@@ -1,0 +1,28 @@
+#let we do quiz now
+y = input("which day is Earth day? A)23rd April; B)22nd April; C)3rd March; D) 4th March ")
+if str(y) == 'B' or str(y) == 'b':
+    print("Correct!")
+else:
+    print("Incorrect, get good")
+
+z = input("Which of the following is a greenhouse gas? A) Water vapour; B) Methane; C) Carbon dioxide; D) All of the above ")
+if str(z) == 'd' or str(z) == 'D':
+    print("Correct!")
+else:
+    print("Incorrect, cope")
+
+x = input("Which year was the warmest on record? A) 2016; B) 2017; C) 2019; D) 2020 ")
+if str(y) == 'a' or str(y) == 'A':
+    print("Correct!")
+else: print("Incorrect, L")
+
+d = input("Is climate change natural? A) Yes, it is purely natural; B) No, it is purely man-made ; C)  it is mostly natural; D) it is mostly man-made ")
+if str(d) == 'd' or str(y) == 'D':
+    print('correct')
+else: print("Incorrect")
+
+i = input("Which country is the world's largest emitter of CO2? A) India; B) USA; C) China; D) Canada ")
+if str(i) == 'c' or "C":
+    print("Correct!")
+else:
+    print("Incorrect, try again")
