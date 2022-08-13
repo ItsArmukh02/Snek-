@@ -1,0 +1,26 @@
+#info on why people in certain crashes are distracted
+x = input("give us a number from 1 to 8 and we'll give you a reason why the driver was distracted ")
+if int(x) == 1:
+    print("people were lost in thought or daydreaming")
+    print("This happens to around 64% of people")
+if int(x) == 2:
+    print("people using their mobile phone")
+    print("This happens to around 12% of people")
+if int(x) == 3:
+    print(" people who were rubbernecking")
+    print("This happens to around 8% of people")
+if int(x) == 4:
+    print("people who were talking to other people physically while driving")
+    print("This happens to around 5% of people")
+if int(x) == 5:
+    print("people who were eating or drinking")
+    print("This happens to around 1% of people")
+if int(x) == 6:
+    print("people who were adjusting things such as audio")
+    print("This happens to around 1% of people")
+if int(x) == 7:
+    print("objects inside the vehicle such as pets or insects")
+    print("This happens to <1% of people")
+if int(x) == 8:
+    print("smoking related crashes ")
+    print("This happens to <1% of people")
