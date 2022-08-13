@@ -1,0 +1,12 @@
+from matplotlib import pyplot as plt
+
+Reason = ("Daydreaming", "Mobile Phone", "Rubbernecking", "Talking to people", "Reaching for devices", "Eating or Drinking", "Adjusting Radios", "Pets or Insects", "Smoking")
+
+Percentage = (64, 12, 8, 5, 3, 1, 1, 0.7, 0.3)
+
+plt.title('Distracted drivers in fatal crashes during 2020, by distraction type')
+plt.xlabel("Distraction Type", fontsize = 14)
+plt.ylabel("Percentage of each distraction", fontsize = 14)
+plt.bar(Reason, Percentage, 0.6, color = 'maroon')
+plt.xticks(rotation=30, ha='center')
+plt.show()
