@@ -1,0 +1,15 @@
+from matplotlib import pyplot as plt
+import numpy as np
+
+x = np.array([2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020])
+y = np.array([32999,32479,33782,32894,32744,35485,37806,37473,36835,36355,38824])
+
+a, b = np.polyfit(x, y, 1)
+
+plt.title('Number of Fatalities due to Car Crashes per Year')
+plt.xlabel("Year")
+plt.ylabel("Fatalities")  
+plt.grid(True)
+plt.scatter(x, y, color='orange')
+plt.plot(x, a*x+b, color='red', linestyle='solid', linewidth=3)  
+plt.show()
