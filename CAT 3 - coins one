@@ -1,0 +1,7 @@
+coins = 1
+notes = 10
+amount = input()
+#use this
+if int(amount) > 1:
+   pay = int(amount) % 10
+   print (pay)
