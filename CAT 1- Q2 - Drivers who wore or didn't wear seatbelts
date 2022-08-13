@@ -1,0 +1,35 @@
+#percentage of belted and unbelted
+x = input("pick a year from 2010 to 2020, and we'll give data on the people who wore or didn't wear seatbelts and were involved in a crash that year.")
+if int(x) == 2010:
+    print("46% of the drivers were belted")
+    print("47% of the drivers weren't belted")
+if int(x) == 2011:
+    print("45% of the drivers were belted")
+    print("47% of the drivers weren't belted")
+if int(x) == 2012:
+    print("45% of the drivers were belted")
+    print("47% of the drivers weren't belted")
+if int(x) == 2013:
+    print("47% of the drivers were belted")
+    print("45% of the drivers weren't belted")
+if int(x) == 2014:
+    print("48% of the drivers were belted")
+    print("45% of the drivers weren't belted")
+if int(x) == 2015:
+    print("48% of the drivers were belted")
+    print("44% of the drivers weren't belted")
+if int(x) == 2016:
+    print("48% of the drivers were belted")
+    print("44% of the drivers weren't belted")
+if int(x) == 2017:
+    print("49% of the drivers were belted")
+    print("43% of the drivers weren't belted")
+if int(x) == 2018:
+    print("49% of the drivers were belted")
+    print("43% of the drivers weren't belted")
+if int(x) == 2019:
+    print("50% of the drivers were belted")
+    print("42% of the drivers weren't belted")
+if int(x) == 2020:
+    print("44% of the drivers were belted")
+    print("46% of the drivers weren't belted")
