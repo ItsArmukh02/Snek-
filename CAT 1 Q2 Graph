@@ -1,0 +1,15 @@
+from matplotlib import pyplot as plt
+
+Year = (2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020)
+Belted = (46, 45, 45, 47, 48, 48, 48, 49, 49, 50, 44)
+Unbelted = (47, 47, 47, 45, 45, 44, 44, 43, 43, 42, 46)
+Unknown = (8, 7, 7, 8, 8, 8, 8, 8, 8, 8, 10)
+plt.title('Seat belt use among fatally injured drivers, 2010-2020')
+plt.xlabel("Year", fontsize = 14)
+plt.ylabel ("Usage of Belt", fontsize = 14)
+plt.plot(Year, Belted, color='red', marker='o', label = "Belted Drivers")
+plt.plot(Year, Unbelted, color='blue', marker='o', label = "Unbelted Drivers")
+plt.plot(Year, Unknown, color='green', marker='o', label = "Unknown")
+plt.grid(True)
+plt.legend()
+plt.show()
