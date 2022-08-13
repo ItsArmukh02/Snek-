@@ -1,0 +1,131 @@
+<head>
+    <title>Climate Masters</title>
+</head>
+<style>
+    
+    
+   .header {
+  background-color:grey;
+  padding: 1px 1px;
+  text-align: center;
+  font-size: xX-large;
+   }
+
+
+   .topnav {
+  overflow: hidden;
+  background-color: #333;
+  }
+
+  .topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 205px;
+  text-decoration: none;
+ }  
+
+
+    .topnav a:hover {
+  background-color: #ddd;
+  color: black;}
+
+  nav{
+    float: left;
+    width: 30%;
+    height: 640px; 
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+  }
+  article {
+   float: left;
+   padding: 10px;
+   width: 65%;
+   background-color: grey;
+   height: 660px;
+   text-align: left;
+   text-decoration-color: gray;
+  }
+  footer{
+    background-color: #777;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font
+  }
+  h1{
+    font-size: large;
+  }
+
+    </style>
+<body text="helvetica" background="pink">
+
+    <div class="header" >
+        <h2><u>Climate Masters: Masters of of quiz Pte. Ltd.</h2></u>
+    </div>
+    <div class="topnav" >
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="">Quizzes
+            <?PHP
+              echo shell_exec("python let we do quiz now.py");
+            >
+
+        </a>
+
+
+    </div>
+    <section>
+        <nav>
+            <ul>
+                <h1><align ="left">Some websites catered to saving the environment:</h1></align
+                <li><a href="hello"></a></li>
+                <li><a href="https://www.worldwildlife.org">WorldWildlife</a></li>
+                <li><a href="http://www.nationalgeographic.com">NationalGeographic</a></li>
+                <li><a href="https://www.bbcearth.com/nature">Bbc</a></li>
+                <li><a href="https://www.nature.org/en-us/about-us/who-we-are/our-science/three-ways-to-save-our-planet/">Nature</a></li>
+                <li><a href="https://teamtrees.org">TeamTrees</a></li>
+                <li><a href="https://closertohome.wwf.sg/donate/?utm_source=google&utm_medium=ad&utm_campaign=closertohome&utm_content=evergreencampaign&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9akvnrlTMaeo0oqLKsqjWRZInDK_bqTyym-qVZe3XyTjo_vV7Y2jIyEaApbbEALw_wcB">WWF</a></li>
+                <h1>Creators of this Website</h1>
+                <li>Vedasva</li>
+                <li>Aniurdh Nana</li>
+                <li>Rogan josh nana</li>
+                <li>macckroon nana</li>
+                <li>Deputy forehead</li>
+                <li>Perth Khogaya</li>
+                <li>Sid Nnannanaa</li>
+                <br>
+                <img src="mymomishot.jpeg" width="350" length="35" >
+            
+            </ul>
+            
+        </nav>
+        <article>
+        
+
+            <h2>The environment</h2>
+            <p><h1>This website is committed to promoting environmental education among kids. The ecosystem encompasses all living creatures on this planet. They are a part of the environment whether they reside on land or in the water. Air, water, sunlight, plants, animals, etc. are also considered to be a part of the environment. 
+                The earth is also thought to be the only planet in the cosmos that can sustain life. The environment can be thought of as a blanket that protects and preserves life on the planet.</h1></p>
+            <p><h1>The true value of the environment is something we simply cannot comprehend. However, we may make some educated guesses about its significance that will aid in our comprehension of it. It is essential for maintaining the wellbeing of all living organisms in the environment.
+
+                Additionally, it preserves the ecological balance necessary to control life on Earth. It satisfies all of the needs of humans, no matter how tiny or great, by providing food, shelter, and air. 
+                In addition, everything that keeps humans alive depends entirely on environmental variables. Most significantly, our environment is the source of natural beauty and is essential for preserving physical and mental health. It also aids in maintaining diverse life cycles on Earth.</h1></p>
+            <p><h1>The majority of human activities hurt the environment in some form, making them the main cause of environmental degradation. Environmental degradation is brought on by human actions such as pollution, poor environmental regulations, chemicals, greenhouse gases, global warming, ozone depletion, etc. 
+
+                These all have negative environmental effects. In addition, the abuse of natural resources will lead to a situation where there are no resources left for consumption in the future. And the most essential element for life, air, will become so polluted that people would need to breathe bottled oxygen.</h1></p>
+            <p><h1>Above all, increased human activity puts additional strain on the earth's surface, resulting in many manmade disasters. The rate at which we are depleting the earth's natural resources also means that they will disappear in a short time. 
+As a conclusion, we can state that the environment is what keeps us alive. We won't be able to exist without the protection of the environment. 
+
+Furthermore, the significance of the environment to life cannot be compensated. Aside from what the environment has already done for us, we have only done harm and degradation to it.</h1></p>
+
+        </article>
+    </section>
+    <footer>
+        FOLLOW US ON INSTAGRAM AND TWITTERRRR...
+    </footer>
+
+    
+      
+</body>
